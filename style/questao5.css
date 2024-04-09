@@ -1,0 +1,25 @@
+body{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+.quadrado{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    animation: aman 3s ease;
+
+}
+@keyframes aman {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(45deg);
+    }
+}
+.botao{
+    position: absolute;
+    bottom: 10px;
+}

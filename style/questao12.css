@@ -1,0 +1,31 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.botao{
+    border: solid 1px blue;
+    border-radius: 20px;
+    color: black;
+    background-color: brown;
+}
+form{
+    width: 200px;
+    height: 200px;
+    font-family: sans-serif;
+    animation: elen 3s forwards linear;
+}
+@keyframes elen {
+    from{
+        transform: translateY(-150%);
+    }
+    to{
+        transform: translateY(0%);
+    }
+    
+}
+.botao{
+    position: absolute;
+    bottom: 10px;
+}

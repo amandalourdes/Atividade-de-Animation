@@ -1,0 +1,55 @@
+body{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+.quadrado{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    animation: men 4s ease;
+
+}
+@keyframes men {
+    0%{
+        transform:rotate(0deg);
+    }
+    12.5%{
+        transform: rotate(45deg);
+        background-color: blue;
+    }
+    25%{
+        transform: rotate(90deg);
+        background-color: blueviolet;
+    }
+    37.5%{
+        transform: rotate(135deg);
+        background-color: darkgray;
+    }
+    50%{
+        transform: rotate(180deg);
+        background-color: aqua;
+    }
+    62.5%{
+        transform: rotate(225deg);
+        background-color: yellow;
+    }
+    75%{
+        transform: rotate(270deg);
+        background-color: chocolate;
+    }
+    87.5%{
+        transform: rotate(315deg);
+        background-color: crimson;
+    }
+    100%{
+        transform: rotate(360deg);
+        background-color: darkslategrey;
+    }
+
+}
+.botao{
+    position: absolute;
+    bottom: 10px;
+}

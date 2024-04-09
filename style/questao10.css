@@ -1,0 +1,31 @@
+body{
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.img{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    animation: mover 3s ;
+}
+@keyframes mover {
+    0%{
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    100%{
+        top: 0;
+        left: 0;
+        width: 70px;
+        height: 70px;
+
+    }
+    
+}
+.botao{
+    position: absolute;
+    bottom: 10px;
+}

@@ -1,0 +1,27 @@
+body{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+.quadrado{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    animation: can 3s ease infinite;
+}
+@keyframes can {
+    0%{
+        transform: scale(0);
+        background-color: blue;
+    }
+    100%{
+        transform: scale(1);
+        background-color: brown;
+    }
+    
+}
+.botao{
+    position: absolute;
+    bottom: 10px;
+}

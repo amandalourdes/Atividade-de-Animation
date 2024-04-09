@@ -1,0 +1,21 @@
+body{
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+}
+
+.quest2{ 
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+ 
+.quest2:hover {
+    background-color: brown;
+    
+}
+.botao{
+    position: absolute;
+    bottom: 10px;
+}

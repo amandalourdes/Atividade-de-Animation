@@ -1,0 +1,32 @@
+body{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 700px;
+}
+
+.circulo{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border-radius: 200px;
+    animation: pulse 2s linear infinite;
+}
+@keyframes pulse {
+    0%{
+        transform: scale(0.5s);
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        transform: scale(1.2);
+        opacity: 0;
+    }
+
+}
+.botao{
+    position: absolute;
+    bottom: 10px;
+}

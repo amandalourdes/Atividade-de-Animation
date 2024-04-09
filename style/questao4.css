@@ -1,0 +1,27 @@
+body{
+    width: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circulo{
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    border-radius: 50%;
+    animation: ane 4s ease;
+    position: relative;
+}
+@keyframes ane {
+    from{
+      left: 0;  
+    }
+    to{
+        left: 500px;
+    }
+}
+.botao{
+    position: absolute;
+    bottom: 10px;
+}

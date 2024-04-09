@@ -1,0 +1,32 @@
+body{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+.circulo{
+    width: 200px;
+    height: 200px;
+    background-color: cadetblue;
+    border-radius: 200px;
+    animation: cin 2s linear 3;
+}
+@keyframes cin {
+    0%{ 
+        transform: scale(1);
+        background-color: cadetblue;
+    }
+    50%{
+        transform: scale(1.5);
+        background-color: cadetblue;
+    }
+    100%{
+        transform: scale(1);
+        background-color: cadetblue;
+    }
+    
+}
+.botao{
+    position: absolute;
+    bottom: 10px;
+}

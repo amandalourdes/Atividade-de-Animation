@@ -1,0 +1,48 @@
+body{ 
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.di1{
+    border: 1px solid red;
+    background-color: rgb(212, 34, 183);
+    width: 200px;
+    height: 200px;
+    animation: movimento 2s infinite ;
+}
+.di2{
+    border: 1px solid red;
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    animation: movimento 2s infinite 3s;
+}
+.di3{
+    border: 1px solid red;
+    background-color: purple;
+    width: 200px;
+    height: 200px;
+    animation:  movimento 2s infinite 6s;
+}
+@keyframes movimento {
+    0%{
+        transform: translateY(0%);
+    }
+    25%{
+        transform: translateY(-100%);
+    }
+    50%{
+        transform: translateY(0%);
+    }
+    75%{
+        transform: translateY(100%);
+    }
+    100%{
+        transform: translateY(0%);
+    }
+}
+.botao{
+    position: absolute;
+    bottom: 10px;
+}
